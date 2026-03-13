@@ -1,41 +1,28 @@
 # clase-mongodb
 
-Repositorio de ejercicios, notas y dumps de la clase de MongoDB.
+Repositorio de notas, ejercicios y backups de la clase de MongoDB.
 
----
+## ¿Qué es MongoDB?
 
-## Estructura del repositorio
-clase-mongodb/
-├── sesion-01/         # find() básico, proyecciones, sort, limit, skip
-│   └── notas.md
-├── sesion-02/         # Operadores de comparación, lógicos, $regex, $elemMatch
-│   └── notas.md
-├── sesion-03/         # find() avanzado, $expr, $jsonSchema, proyección
-│   └── notas.md
-├── dumps/             # Backups de bases de datos con mongodump
-└── README.md
+## Contenido del repositorio
 
-## Colección principal
+Cada sesión tiene su propia carpeta con:
+- `notas.md` — comandos y explicaciones de lo visto en clase
+- `dumps/` — backups de las bases de datos trabajadas
 
-- **Base de datos:** `sample_restaurants` (MongoDB Atlas)
-- **Documentos:** 25,359
-- **Campos clave:** `name`, `cuisine`, `borough`, `grades`, `address`
+## Herramientas utilizadas
 
----
+- **MongoDB 7.x** — motor de base de datos
+- **mongosh** — shell interactivo de MongoDB
+- **MongoDB Atlas** — clúster en la nube con datos de práctica
+- **mongodump** — herramienta para exportar bases de datos
+- **Fedora Linux** — sistema operativo
+- **Git + GitHub** — control de versiones
 
-## Sesiones
+## Colección principal de práctica
 
-| Sesión | Tema | Operadores vistos |
-|--------|------|-------------------|
-| 01 | Introducción y find() básico | `find()`, `findOne()`, proyecciones, `sort()`, `limit()`, `skip()`, `countDocuments()` |
-| 02 | Operadores de consulta | `$eq`, `$ne`, `$gt`, `$lte`, `$in`, `$nin`, `$and`, `$or`, `$nor`, `$not`, `$exists`, `$regex`, `$elemMatch` |
-| 03 | Consultas avanzadas | `$expr`, `$size`, `$avg`, `$jsonSchema`, `$text`, `$mod`, `$slice`, `$meta` |
+`sample_restaurants` — base de datos de ejemplo provista por MongoDB Atlas con 25,359 documentos.
 
----
+## Autor
 
-## Herramientas
-
-- MongoDB 7.x + mongosh
-- mongodb-database-tools (`mongodump`)
-- Fedora Linux
-- Git + GitHub (SSH)
+Robert Caicedo — [@RobertCaicedo3723](https://github.com/RobertCaicedo3723)
