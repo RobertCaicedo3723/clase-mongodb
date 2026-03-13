@@ -4,6 +4,8 @@ Repositorio de notas, ejercicios y backups de la clase de MongoDB.
 
 ## ¿Qué es MongoDB?
 
+MongoDB es una base de datos NoSQL orientada a documentos. En lugar de tablas y filas, almacena los datos como documentos JSON/BSON dentro de colecciones, lo que permite estructuras flexibles y escalables.
+
 ## Contenido del repositorio
 
 Cada sesión tiene su propia carpeta con:
